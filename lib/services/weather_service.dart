@@ -6,8 +6,8 @@ import '../models/weather_model.dart';
 
 /// Service class for fetching weather data and managing weather-related state
 class WeatherService extends ChangeNotifier {
-  static const String API_KEY = '8b6e24648a29f18bab7f32d5e1930559';
-  static const String API_URL = 'https://api.openweathermap.org/data/2.5/weather';
+  static const String API_KEY = '';
+  static const String API_URL = '';
 
   WeatherModel? _weather;
   String? _error;

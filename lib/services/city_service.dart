@@ -4,10 +4,10 @@ import 'dart:convert';
 /// Service class for fetching city suggestions from the OpenWeatherMap API
 class CityService {
   // API key for OpenWeatherMap
-  static const String API_KEY = '8b6e24648a29f18bab7f32d5e1930559';
+  static const String API_KEY = '';
 
   // Base URL for the OpenWeatherMap Geocoding API
-  static const String API_URL = 'https://api.openweathermap.org/geo/1.0/direct';
+  static const String API_URL = '';
 
   /// Fetches city suggestions based on the user's input query
   ///
